@@ -161,7 +161,6 @@ local responses = {
     ["ngủ"] = "Ngủ ngon.",
     ["dậy đi"] = "Dậy đi nào.",
     ["đói"] = "Ăn gì chưa?",
-    ["no"] = "Tốt rồi.",
     ["khát"] = "Uống nước đi.",
     ["thật không"] = "Thật mà.",
     ["vậy à"] = "Đúng rồi.",
