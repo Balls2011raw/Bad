@@ -1,4 +1,6 @@
--- Đặt các phản hồi cho các từ khóa khác nhau
+Print('WELCOME TO MY SCRIPT, IM TESTING..., REPORT ERROR TO MY DISCORD!');
+end
+-Phản hồi
 local responses = {
     ["report"] = "I don't care.",
     ["ban"] = "You can't scare me.",
@@ -663,6 +665,64 @@ local responses = {
 ["wrong"] = "Where am I wrong?"
 [":("] = "What's wrong, does it have anything to do with me??!?"
 ["who"] = "idk"
+["your bad"] = "I think you meant 'you're bad'.",
+["your trash"] = "Trash talking won't help.",
+["your terrible"] = "Let's keep it friendly.",
+["youre bad"] = "Everyone has off days.",
+["youre trash"] = "Practice makes perfect.",
+["youre terrible"] = "We all start somewhere.",
+["youre the worst"] = "Everyone improves with time.",
+["youre a joke"] = "Humor is subjective.",
+["youre hopeless"] = "Optimism is key.",
+["your the worst"] = "Grammar matters, it's 'you're'.",
+["your a joke"] = "You meant 'you're'.",
+["your hopeless"] = "Actually, it's 'you're hopeless'.",
+["you cant play"] = "Learning is part of the game.",
+["youll never win"] = "We'll see about that.",
+["youll lose"] = "Losing is part of winning.",
+["you should quit"] = "Never give up.",
+["your useless"] = "Everyone has value.",
+["you suck at this"] = "Still learning the ropes.",
+["youre weak"] = "Strength isn't just physical.",
+["youre a failure"] = "Failure is a stepping stone to success.",
+["youre not good"] = "Practice makes better.",
+["your weak"] = "It's 'you're weak', by the way.",
+["your a failure"] = "It's actually 'you're a failure'.",
+["your not good"] = "You meant 'you're not good'.",
+["your fake"] = "Authenticity is subjective.",
+["your dumb"] = "I think you meant 'you're'.",
+["youll fail"] = "Failure is part of learning.",
+["youll never succeed"] = "Success takes time.",
+["youre not skilled"] = "Skills come with practice.",
+["your not skilled"] = "Actually, it's 'you're'.",
+["youre mediocre"] = "Always striving for improvement.",
+["your mediocre"] = "It's 'you're mediocre'.",
+["youre average"] = "Average is just a starting point.",
+["your average"] = "You meant 'you're'.",
+["youre inexperienced"] = "Gaining experience every day.",
+["your inexperienced"] = "It's 'you're inexperienced'.",
+["youre unskilled"] = "Skills can be developed.",
+["your unskilled"] = "Actually, it's 'you're'.",
+["youre a loser"] = "Winning isn’t everything.",
+["your a loser"] = "It's 'you're a loser'.",
+["youre incapable"] = "Capabilities can be developed.",
+["your incapable"] = "You meant 'you're'.",
+["youre worthless"] = "Everyone has worth.",
+["your worthless"] = "It's 'you're worthless'.",
+["youre not smart"] = "Everyone has different strengths.",
+["your not smart"] = "Actually, it's 'you're not smart'.",
+["youre inferior"] = "Comparison is the thief of joy.",
+["your inferior"] = "You meant 'you're'.",
+["youre slow"] = "Speed isn’t everything.",
+["your slow"] = "It's 'you're slow'.",
+["youre out of your league"] = "Aiming high.",
+["your out of your league"] = "You meant 'you're'.",
+["youre a coward"] = "Courage is subjective.",
+["your a coward"] = "It's 'you're a coward'.",
+["youre not worth it"] = "Everyone has worth.",
+["your not worth it"] = "Actually, it's 'you're not worth it'.",
+["im scared"] = "Are you afraid? What makes you afraid?",
+["im new"] = "Welcome, let's learn and practice playing the game!",
 }
 
 -- Lấy dịch vụ Players và ReplicatedStorage
@@ -704,4 +764,4 @@ end
 ReplicatedStorage.DefaultChatSystemChatEvents.OnMessageDoneFiltering.OnClientEvent:Connect(function(data)
     onMessageReceived(data.FromSpeaker, data.Message)
 end)
-Print('Hello, u check in console, the script is beta 😃')
+
