@@ -169,7 +169,6 @@ local responses = {
     ["xin lỗi"] = "Không sao đâu.",
     ["có thật không"] = "Có thật mà.",
     ["bạn ở đâu"] = "Mình ở ngay đây.",
-    ["ok"] = "OK.",
     ["hẹn gặp lại"] = "Hẹn gặp lại.",
     ["làm gì vậy"] = "Mình đang chơi.",
     ["nghe nhạc không"] = "Có, bạn thì sao?",
@@ -339,7 +338,6 @@ local responses = {
     ["standout"] = "I appreciate your kind words!",
     ["fan-freakin-tastic"] = "Thank you! Let’s keep chatting!",
     ["well done"] = "Thanks! I'm here to assist.",
-    ["k"] = "Ok.",
     ["kk"] = "Được.",
     ["khoong"] = "Không.",
     ["k biết"] = "Không biết.",
@@ -661,6 +659,10 @@ local responses = {
 ["you're out of your league"] = "Aiming high.",
 ["you're a coward"] = "Courage is subjective.",
 ["you're not worth it"] = "Everyone has worth.",
+["left"] = "leave, that is my purpose",
+["wrong"] = "Where am I wrong?"
+[":("] = "What's wrong, does it have anything to do with me??!?"
+["who"] = "idk"
 }
 
 -- Lấy dịch vụ Players và ReplicatedStorage
